@@ -1,0 +1,29 @@
+{
+  "name": "vit-bfhl-api",
+  "version": "1.0.0",
+  "description": "VIT BFHL task: REST API to classify inputs and return computed fields",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test/sample-run.js"
+  },
+  "keywords": [
+    "VIT",
+    "BFHL",
+    "REST",
+    "Express",
+    "Node.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
